@@ -837,7 +837,533 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:Q_NPN_BCE"
+		(symbol "Device:R_Pack08_Split"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RN"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Pack08_Split"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "8 resistor network, parallel topology, split"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R network parallel topology isolated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Pack08_Split_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Pack08_Split_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R1.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack08_Split_2_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R2.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack08_Split_3_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R3.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R3.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack08_Split_4_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R4.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R4.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack08_Split_5_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R5.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R5.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack08_Split_6_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R6.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R6.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack08_Split_7_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R7.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R7.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack08_Split_8_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R8.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R8.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:Q_NPN_BEC"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -854,7 +1380,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_NPN_BCE"
+			(property "Value" "Q_NPN_BEC"
 				(at 5.08 -1.27 0)
 				(effects
 					(font
@@ -881,7 +1407,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "NPN transistor, base/collector/emitter"
+			(property "Description" "NPN transistor, base/emitter/collector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -899,7 +1425,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Q_NPN_BCE_0_1"
+			(symbol "Q_NPN_BEC_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -936,7 +1462,7 @@
 					)
 				)
 			)
-			(symbol "Q_NPN_BCE_1_1"
+			(symbol "Q_NPN_BEC_1_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -1001,7 +1527,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1019,7 +1545,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1894,6 +2420,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 87.63) (xy 200.66 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05e40fb8-55f0-4e41-bd13-cf92a909ad7e")
+	)
+	(wire
+		(pts
 			(xy 71.12 165.1) (xy 71.12 166.37)
 		)
 		(stroke
@@ -2054,7 +2590,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 64.77) (xy 144.78 64.77)
+			(xy 125.73 64.77) (xy 134.62 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2104,7 +2640,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 134.62) (xy 144.78 134.62)
+			(xy 125.73 134.62) (xy 135.89 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2214,6 +2750,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 64.77) (xy 144.78 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a995da4-0b9e-46e3-8b78-918094f58263")
+	)
+	(wire
+		(pts
 			(xy 50.8 114.3) (xy 50.8 76.2)
 		)
 		(stroke
@@ -2284,6 +2830,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 134.62) (xy 144.78 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "386110d8-d97f-43f7-bd8c-cd01bff10912")
+	)
+	(wire
+		(pts
 			(xy 71.12 154.94) (xy 71.12 157.48)
 		)
 		(stroke
@@ -2311,6 +2867,16 @@
 			(type default)
 		)
 		(uuid "42180ca6-8d39-48f4-afe9-57d1bd37a7da")
+	)
+	(wire
+		(pts
+			(xy 143.51 110.49) (xy 144.78 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42591952-666f-4863-85c4-58cf8b2acaf4")
 	)
 	(wire
 		(pts
@@ -2574,7 +3140,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 43.18) (xy 200.66 43.18)
+			(xy 181.61 43.18) (xy 190.5 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2584,7 +3150,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 87.63) (xy 144.78 87.63)
+			(xy 125.73 87.63) (xy 135.89 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2604,7 +3170,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 64.77) (xy 200.66 64.77)
+			(xy 181.61 64.77) (xy 190.5 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2681,6 +3247,16 @@
 			(type default)
 		)
 		(uuid "740c87f4-6e87-403b-bbd5-0375e1c8664f")
+	)
+	(wire
+		(pts
+			(xy 196.85 134.62) (xy 200.66 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "741b17d6-dad6-414d-a0b7-f840823e7b55")
 	)
 	(wire
 		(pts
@@ -2962,6 +3538,16 @@
 		)
 		(uuid "983337d9-f2b4-43a4-b150-47fd1c073d33")
 	)
+	(wire
+		(pts
+			(xy 198.12 64.77) (xy 200.66 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "984a8a74-1b8e-4ac3-aed8-ade4b13a5e81")
+	)
 	(bus
 		(pts
 			(xy 39.37 68.58) (xy 39.37 71.12)
@@ -3121,6 +3707,16 @@
 			(type default)
 		)
 		(uuid "a75e1eba-f5f8-4acb-89f4-0f1b839a482f")
+	)
+	(wire
+		(pts
+			(xy 143.51 87.63) (xy 144.78 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7a3a07d-d159-4f2d-b8aa-fd2737bf2932")
 	)
 	(wire
 		(pts
@@ -3544,6 +4140,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 43.18) (xy 200.66 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d109ba9a-4d90-4cd0-b90e-b481d7a59a56")
+	)
+	(wire
+		(pts
 			(xy 106.68 81.28) (xy 87.63 81.28)
 		)
 		(stroke
@@ -3674,7 +4280,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 43.18) (xy 144.78 43.18)
+			(xy 125.73 43.18) (xy 134.62 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3724,7 +4330,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 87.63) (xy 200.66 87.63)
+			(xy 181.61 87.63) (xy 190.5 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3741,6 +4347,16 @@
 			(type default)
 		)
 		(uuid "e5aa70a8-c846-4c36-b4e0-9ba488b7050f")
+	)
+	(wire
+		(pts
+			(xy 142.24 43.18) (xy 144.78 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e67a271c-89e7-4007-bd2c-10c2f90e6d6f")
 	)
 	(bus
 		(pts
@@ -3834,13 +4450,23 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 110.49) (xy 200.66 110.49)
+			(xy 181.61 110.49) (xy 191.77 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "eeb5b215-e432-4df3-998f-adc0a8c3cf81")
+	)
+	(wire
+		(pts
+			(xy 196.85 110.49) (xy 200.66 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef582b1b-4aff-460f-a589-7c4be2c2bdc8")
 	)
 	(wire
 		(pts
@@ -3854,7 +4480,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 110.49) (xy 144.78 110.49)
+			(xy 125.73 110.49) (xy 135.89 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3934,7 +4560,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 134.62) (xy 200.66 134.62)
+			(xy 181.61 134.62) (xy 191.77 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4640,6 +5266,116 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Pack08_Split")
+		(at 194.31 87.63 270)
+		(unit 8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00e9fe98-4875-4361-b6ed-7ca216e75ee0")
+		(property "Reference" "RN1"
+			(at 194.31 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Pack08_Split"
+			(at 194.31 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 resistor network, parallel topology, split"
+			(at 194.31 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "353fb869-a19c-45c7-a012-e159dc77f7a6")
+		)
+		(pin "4"
+			(uuid "e91d0c9a-4155-4c8e-ba0e-4a5722e9fab4")
+		)
+		(pin "10"
+			(uuid "b0f3f7ef-3bda-4f38-a1c8-00b48c7ead92")
+		)
+		(pin "7"
+			(uuid "b472b84b-6f1c-4ae7-a2b4-de7d0b3321a7")
+		)
+		(pin "12"
+			(uuid "28f3452e-c74c-45d0-8744-fbb5a0166c57")
+		)
+		(pin "6"
+			(uuid "3f73c6fc-e149-45dc-9853-0a43c641b85f")
+		)
+		(pin "15"
+			(uuid "fd8ef3fe-9208-4a9a-8031-9134c08fe319")
+		)
+		(pin "14"
+			(uuid "b0a7e5a7-69e6-4de4-be3a-0ac096b1b22d")
+		)
+		(pin "11"
+			(uuid "50e1ae20-d306-4ce9-ab62-5d6ec93aaea9")
+		)
+		(pin "5"
+			(uuid "1078c98f-6470-42a6-b221-f16950df890e")
+		)
+		(pin "9"
+			(uuid "32dd0e9b-9509-41e7-8ffb-696427f53245")
+		)
+		(pin "2"
+			(uuid "d64d475b-b3b6-4266-96be-06f2829df94d")
+		)
+		(pin "16"
+			(uuid "d7552b6f-5fac-4d05-990b-b520750cc997")
+		)
+		(pin "1"
+			(uuid "42667231-149a-41f2-aa3a-b76d72dd2ec5")
+		)
+		(pin "3"
+			(uuid "85ce54a7-223b-4d47-a468-1249d5fe1da4")
+		)
+		(pin "13"
+			(uuid "05f3ff4b-d46a-4091-83ce-65dffb9b94c9")
+		)
+		(instances
+			(project ""
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00"
+					(reference "RN1")
+					(unit 8)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 59.69 177.8 180)
 		(unit 1)
@@ -4799,7 +5535,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_NPN_BCE")
+		(lib_id "Transistor_BJT:Q_NPN_BEC")
 		(at 149.86 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4844,7 +5580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "NPN transistor, base/collector/emitter"
+		(property "Description" "NPN transistor, base/emitter/collector"
 			(at 149.86 64.77 0)
 			(effects
 				(font
@@ -5209,6 +5945,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 194.31 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16c21da6-c330-4d26-8118-508698f2ddee")
+		(property "Reference" "R41"
+			(at 194.31 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 194.31 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 194.31 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C98220"
+			(at 194.31 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8d7b5a11-97c2-4131-a943-cabea0eb1ae7")
+		)
+		(pin "1"
+			(uuid "42dc0ea6-68a1-41b4-b223-531d8a829a1c")
+		)
+		(instances
+			(project "Yet-Another-Nixie-Clock"
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 77.47 134.62 0)
 		(unit 1)
@@ -5340,7 +6153,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_NPN_BCE")
+		(lib_id "Transistor_BJT:Q_NPN_BEC")
 		(at 149.86 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5385,7 +6198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "NPN transistor, base/collector/emitter"
+		(property "Description" "NPN transistor, base/emitter/collector"
 			(at 149.86 110.49 0)
 			(effects
 				(font
@@ -5488,7 +6301,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_NPN_BCE")
+		(lib_id "Transistor_BJT:Q_NPN_BEC")
 		(at 205.74 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5533,7 +6346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "NPN transistor, base/collector/emitter"
+		(property "Description" "NPN transistor, base/emitter/collector"
 			(at 205.74 110.49 0)
 			(effects
 				(font
@@ -5570,7 +6383,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_NPN_BCE")
+		(lib_id "Transistor_BJT:Q_NPN_BEC")
 		(at 205.74 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5615,7 +6428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "NPN transistor, base/collector/emitter"
+		(property "Description" "NPN transistor, base/emitter/collector"
 			(at 205.74 87.63 0)
 			(effects
 				(font
@@ -5839,7 +6652,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_NPN_BCE")
+		(lib_id "Transistor_BJT:Q_NPN_BEC")
 		(at 149.86 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5884,7 +6697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "NPN transistor, base/collector/emitter"
+		(property "Description" "NPN transistor, base/emitter/collector"
 			(at 149.86 43.18 0)
 			(effects
 				(font
@@ -6081,7 +6894,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_NPN_BCE")
+		(lib_id "Transistor_BJT:Q_NPN_BEC")
 		(at 149.86 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6126,7 +6939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "NPN transistor, base/collector/emitter"
+		(property "Description" "NPN transistor, base/emitter/collector"
 			(at 149.86 87.63 0)
 			(effects
 				(font
@@ -6228,6 +7041,116 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Pack08_Split")
+		(at 138.43 64.77 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b8b4348-ffa1-400e-93da-88354f16af3d")
+		(property "Reference" "RN1"
+			(at 138.43 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Pack08_Split"
+			(at 138.43 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 resistor network, parallel topology, split"
+			(at 138.43 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "353fb869-a19c-45c7-a012-e159dc77f7a6")
+		)
+		(pin "4"
+			(uuid "e91d0c9a-4155-4c8e-ba0e-4a5722e9fab4")
+		)
+		(pin "10"
+			(uuid "b0f3f7ef-3bda-4f38-a1c8-00b48c7ead92")
+		)
+		(pin "7"
+			(uuid "b472b84b-6f1c-4ae7-a2b4-de7d0b3321a7")
+		)
+		(pin "12"
+			(uuid "28f3452e-c74c-45d0-8744-fbb5a0166c57")
+		)
+		(pin "6"
+			(uuid "3f73c6fc-e149-45dc-9853-0a43c641b85f")
+		)
+		(pin "15"
+			(uuid "fd8ef3fe-9208-4a9a-8031-9134c08fe319")
+		)
+		(pin "14"
+			(uuid "b0a7e5a7-69e6-4de4-be3a-0ac096b1b22d")
+		)
+		(pin "11"
+			(uuid "50e1ae20-d306-4ce9-ab62-5d6ec93aaea9")
+		)
+		(pin "5"
+			(uuid "1078c98f-6470-42a6-b221-f16950df890e")
+		)
+		(pin "9"
+			(uuid "32dd0e9b-9509-41e7-8ffb-696427f53245")
+		)
+		(pin "2"
+			(uuid "d64d475b-b3b6-4266-96be-06f2829df94d")
+		)
+		(pin "16"
+			(uuid "d7552b6f-5fac-4d05-990b-b520750cc997")
+		)
+		(pin "1"
+			(uuid "42667231-149a-41f2-aa3a-b76d72dd2ec5")
+		)
+		(pin "3"
+			(uuid "85ce54a7-223b-4d47-a468-1249d5fe1da4")
+		)
+		(pin "13"
+			(uuid "05f3ff4b-d46a-4091-83ce-65dffb9b94c9")
+		)
+		(instances
+			(project ""
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00"
+					(reference "RN1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 59.69 165.1 180)
 		(unit 1)
@@ -6322,7 +7245,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_NPN_BCE")
+		(lib_id "Transistor_BJT:Q_NPN_BEC")
 		(at 149.86 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6367,7 +7290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "NPN transistor, base/collector/emitter"
+		(property "Description" "NPN transistor, base/emitter/collector"
 			(at 149.86 134.62 0)
 			(effects
 				(font
@@ -6782,6 +7705,116 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Pack08_Split")
+		(at 139.7 134.62 270)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d26ebb6-e3bc-40f5-afcc-b06916d5861b")
+		(property "Reference" "RN1"
+			(at 139.7 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Pack08_Split"
+			(at 139.7 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 132.588 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 resistor network, parallel topology, split"
+			(at 139.7 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "353fb869-a19c-45c7-a012-e159dc77f7a6")
+		)
+		(pin "4"
+			(uuid "e91d0c9a-4155-4c8e-ba0e-4a5722e9fab4")
+		)
+		(pin "10"
+			(uuid "b0f3f7ef-3bda-4f38-a1c8-00b48c7ead92")
+		)
+		(pin "7"
+			(uuid "b472b84b-6f1c-4ae7-a2b4-de7d0b3321a7")
+		)
+		(pin "12"
+			(uuid "28f3452e-c74c-45d0-8744-fbb5a0166c57")
+		)
+		(pin "6"
+			(uuid "3f73c6fc-e149-45dc-9853-0a43c641b85f")
+		)
+		(pin "15"
+			(uuid "fd8ef3fe-9208-4a9a-8031-9134c08fe319")
+		)
+		(pin "14"
+			(uuid "b0a7e5a7-69e6-4de4-be3a-0ac096b1b22d")
+		)
+		(pin "11"
+			(uuid "50e1ae20-d306-4ce9-ab62-5d6ec93aaea9")
+		)
+		(pin "5"
+			(uuid "1078c98f-6470-42a6-b221-f16950df890e")
+		)
+		(pin "9"
+			(uuid "32dd0e9b-9509-41e7-8ffb-696427f53245")
+		)
+		(pin "2"
+			(uuid "d64d475b-b3b6-4266-96be-06f2829df94d")
+		)
+		(pin "16"
+			(uuid "d7552b6f-5fac-4d05-990b-b520750cc997")
+		)
+		(pin "1"
+			(uuid "42667231-149a-41f2-aa3a-b76d72dd2ec5")
+		)
+		(pin "3"
+			(uuid "85ce54a7-223b-4d47-a468-1249d5fe1da4")
+		)
+		(pin "13"
+			(uuid "05f3ff4b-d46a-4091-83ce-65dffb9b94c9")
+		)
+		(instances
+			(project ""
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00"
+					(reference "RN1")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 208.28 140.97 0)
 		(unit 1)
@@ -6914,7 +7947,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_NPN_BCE")
+		(lib_id "Transistor_BJT:Q_NPN_BEC")
 		(at 205.74 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6959,7 +7992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "NPN transistor, base/collector/emitter"
+		(property "Description" "NPN transistor, base/emitter/collector"
 			(at 205.74 43.18 0)
 			(effects
 				(font
@@ -6991,6 +8024,116 @@
 				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00"
 					(reference "Q9")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack08_Split")
+		(at 139.7 110.49 270)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9de91217-0f15-49c8-a971-39c4c84ca489")
+		(property "Reference" "RN1"
+			(at 139.7 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Pack08_Split"
+			(at 139.7 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 108.458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 resistor network, parallel topology, split"
+			(at 139.7 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "353fb869-a19c-45c7-a012-e159dc77f7a6")
+		)
+		(pin "4"
+			(uuid "e91d0c9a-4155-4c8e-ba0e-4a5722e9fab4")
+		)
+		(pin "10"
+			(uuid "b0f3f7ef-3bda-4f38-a1c8-00b48c7ead92")
+		)
+		(pin "7"
+			(uuid "b472b84b-6f1c-4ae7-a2b4-de7d0b3321a7")
+		)
+		(pin "12"
+			(uuid "28f3452e-c74c-45d0-8744-fbb5a0166c57")
+		)
+		(pin "6"
+			(uuid "3f73c6fc-e149-45dc-9853-0a43c641b85f")
+		)
+		(pin "15"
+			(uuid "fd8ef3fe-9208-4a9a-8031-9134c08fe319")
+		)
+		(pin "14"
+			(uuid "b0a7e5a7-69e6-4de4-be3a-0ac096b1b22d")
+		)
+		(pin "11"
+			(uuid "50e1ae20-d306-4ce9-ab62-5d6ec93aaea9")
+		)
+		(pin "5"
+			(uuid "1078c98f-6470-42a6-b221-f16950df890e")
+		)
+		(pin "9"
+			(uuid "32dd0e9b-9509-41e7-8ffb-696427f53245")
+		)
+		(pin "2"
+			(uuid "d64d475b-b3b6-4266-96be-06f2829df94d")
+		)
+		(pin "16"
+			(uuid "d7552b6f-5fac-4d05-990b-b520750cc997")
+		)
+		(pin "1"
+			(uuid "42667231-149a-41f2-aa3a-b76d72dd2ec5")
+		)
+		(pin "3"
+			(uuid "85ce54a7-223b-4d47-a468-1249d5fe1da4")
+		)
+		(pin "13"
+			(uuid "05f3ff4b-d46a-4091-83ce-65dffb9b94c9")
+		)
+		(instances
+			(project ""
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00"
+					(reference "RN1")
+					(unit 4)
 				)
 			)
 		)
@@ -7422,6 +8565,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 194.31 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa319285-e154-4e3b-a433-e3186e00e1b5")
+		(property "Reference" "R42"
+			(at 194.31 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 194.31 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 194.31 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C98220"
+			(at 194.31 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "00e676a2-2861-41f4-a7c8-c613c6d54a7e")
+		)
+		(pin "1"
+			(uuid "cdb6f142-16d5-44da-9629-cee2f5f784b4")
+		)
+		(instances
+			(project "Yet-Another-Nixie-Clock"
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HC237")
 		(at 77.47 119.38 0)
 		(unit 1)
@@ -7552,7 +8772,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_NPN_BCE")
+		(lib_id "Transistor_BJT:Q_NPN_BEC")
 		(at 205.74 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7597,7 +8817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "NPN transistor, base/collector/emitter"
+		(property "Description" "NPN transistor, base/emitter/collector"
 			(at 205.74 134.62 0)
 			(effects
 				(font
@@ -7700,7 +8920,117 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_NPN_BCE")
+		(lib_id "Device:R_Pack08_Split")
+		(at 138.43 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d06cf60f-0bc4-48c6-8ea2-018800371de8")
+		(property "Reference" "RN1"
+			(at 138.43 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Pack08_Split"
+			(at 138.43 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 41.148 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 resistor network, parallel topology, split"
+			(at 138.43 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "353fb869-a19c-45c7-a012-e159dc77f7a6")
+		)
+		(pin "4"
+			(uuid "e91d0c9a-4155-4c8e-ba0e-4a5722e9fab4")
+		)
+		(pin "10"
+			(uuid "b0f3f7ef-3bda-4f38-a1c8-00b48c7ead92")
+		)
+		(pin "7"
+			(uuid "b472b84b-6f1c-4ae7-a2b4-de7d0b3321a7")
+		)
+		(pin "12"
+			(uuid "28f3452e-c74c-45d0-8744-fbb5a0166c57")
+		)
+		(pin "6"
+			(uuid "3f73c6fc-e149-45dc-9853-0a43c641b85f")
+		)
+		(pin "15"
+			(uuid "fd8ef3fe-9208-4a9a-8031-9134c08fe319")
+		)
+		(pin "14"
+			(uuid "b0a7e5a7-69e6-4de4-be3a-0ac096b1b22d")
+		)
+		(pin "11"
+			(uuid "50e1ae20-d306-4ce9-ab62-5d6ec93aaea9")
+		)
+		(pin "5"
+			(uuid "1078c98f-6470-42a6-b221-f16950df890e")
+		)
+		(pin "9"
+			(uuid "32dd0e9b-9509-41e7-8ffb-696427f53245")
+		)
+		(pin "2"
+			(uuid "d64d475b-b3b6-4266-96be-06f2829df94d")
+		)
+		(pin "16"
+			(uuid "d7552b6f-5fac-4d05-990b-b520750cc997")
+		)
+		(pin "1"
+			(uuid "42667231-149a-41f2-aa3a-b76d72dd2ec5")
+		)
+		(pin "3"
+			(uuid "85ce54a7-223b-4d47-a468-1249d5fe1da4")
+		)
+		(pin "13"
+			(uuid "05f3ff4b-d46a-4091-83ce-65dffb9b94c9")
+		)
+		(instances
+			(project ""
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00"
+					(reference "RN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_NPN_BEC")
 		(at 205.74 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7745,7 +9075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "NPN transistor, base/collector/emitter"
+		(property "Description" "NPN transistor, base/emitter/collector"
 			(at 205.74 64.77 0)
 			(effects
 				(font
@@ -7942,6 +9272,226 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Pack08_Split")
+		(at 139.7 87.63 270)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd10688b-5ba1-4879-bc4d-e3f27586b156")
+		(property "Reference" "RN1"
+			(at 139.7 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Pack08_Split"
+			(at 139.7 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 resistor network, parallel topology, split"
+			(at 139.7 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "353fb869-a19c-45c7-a012-e159dc77f7a6")
+		)
+		(pin "4"
+			(uuid "e91d0c9a-4155-4c8e-ba0e-4a5722e9fab4")
+		)
+		(pin "10"
+			(uuid "b0f3f7ef-3bda-4f38-a1c8-00b48c7ead92")
+		)
+		(pin "7"
+			(uuid "b472b84b-6f1c-4ae7-a2b4-de7d0b3321a7")
+		)
+		(pin "12"
+			(uuid "28f3452e-c74c-45d0-8744-fbb5a0166c57")
+		)
+		(pin "6"
+			(uuid "3f73c6fc-e149-45dc-9853-0a43c641b85f")
+		)
+		(pin "15"
+			(uuid "fd8ef3fe-9208-4a9a-8031-9134c08fe319")
+		)
+		(pin "14"
+			(uuid "b0a7e5a7-69e6-4de4-be3a-0ac096b1b22d")
+		)
+		(pin "11"
+			(uuid "50e1ae20-d306-4ce9-ab62-5d6ec93aaea9")
+		)
+		(pin "5"
+			(uuid "1078c98f-6470-42a6-b221-f16950df890e")
+		)
+		(pin "9"
+			(uuid "32dd0e9b-9509-41e7-8ffb-696427f53245")
+		)
+		(pin "2"
+			(uuid "d64d475b-b3b6-4266-96be-06f2829df94d")
+		)
+		(pin "16"
+			(uuid "d7552b6f-5fac-4d05-990b-b520750cc997")
+		)
+		(pin "1"
+			(uuid "42667231-149a-41f2-aa3a-b76d72dd2ec5")
+		)
+		(pin "3"
+			(uuid "85ce54a7-223b-4d47-a468-1249d5fe1da4")
+		)
+		(pin "13"
+			(uuid "05f3ff4b-d46a-4091-83ce-65dffb9b94c9")
+		)
+		(instances
+			(project ""
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00"
+					(reference "RN1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack08_Split")
+		(at 194.31 43.18 270)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0475656-4a3e-42e9-86d4-f57c8402f91e")
+		(property "Reference" "RN1"
+			(at 194.31 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Pack08_Split"
+			(at 194.31 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 41.148 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 resistor network, parallel topology, split"
+			(at 194.31 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "353fb869-a19c-45c7-a012-e159dc77f7a6")
+		)
+		(pin "4"
+			(uuid "e91d0c9a-4155-4c8e-ba0e-4a5722e9fab4")
+		)
+		(pin "10"
+			(uuid "b0f3f7ef-3bda-4f38-a1c8-00b48c7ead92")
+		)
+		(pin "7"
+			(uuid "b472b84b-6f1c-4ae7-a2b4-de7d0b3321a7")
+		)
+		(pin "12"
+			(uuid "28f3452e-c74c-45d0-8744-fbb5a0166c57")
+		)
+		(pin "6"
+			(uuid "3f73c6fc-e149-45dc-9853-0a43c641b85f")
+		)
+		(pin "15"
+			(uuid "fd8ef3fe-9208-4a9a-8031-9134c08fe319")
+		)
+		(pin "14"
+			(uuid "b0a7e5a7-69e6-4de4-be3a-0ac096b1b22d")
+		)
+		(pin "11"
+			(uuid "50e1ae20-d306-4ce9-ab62-5d6ec93aaea9")
+		)
+		(pin "5"
+			(uuid "1078c98f-6470-42a6-b221-f16950df890e")
+		)
+		(pin "9"
+			(uuid "32dd0e9b-9509-41e7-8ffb-696427f53245")
+		)
+		(pin "2"
+			(uuid "d64d475b-b3b6-4266-96be-06f2829df94d")
+		)
+		(pin "16"
+			(uuid "d7552b6f-5fac-4d05-990b-b520750cc997")
+		)
+		(pin "1"
+			(uuid "42667231-149a-41f2-aa3a-b76d72dd2ec5")
+		)
+		(pin "3"
+			(uuid "85ce54a7-223b-4d47-a468-1249d5fe1da4")
+		)
+		(pin "13"
+			(uuid "05f3ff4b-d46a-4091-83ce-65dffb9b94c9")
+		)
+		(instances
+			(project ""
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00"
+					(reference "RN1")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 59.69 157.48 180)
 		(unit 1)
@@ -8031,6 +9581,116 @@
 				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00"
 					(reference "D4")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack08_Split")
+		(at 194.31 64.77 270)
+		(unit 7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee41ab86-4803-4b8b-bcb8-58cc0231d237")
+		(property "Reference" "RN1"
+			(at 194.31 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Pack08_Split"
+			(at 194.31 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 resistor network, parallel topology, split"
+			(at 194.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "353fb869-a19c-45c7-a012-e159dc77f7a6")
+		)
+		(pin "4"
+			(uuid "e91d0c9a-4155-4c8e-ba0e-4a5722e9fab4")
+		)
+		(pin "10"
+			(uuid "b0f3f7ef-3bda-4f38-a1c8-00b48c7ead92")
+		)
+		(pin "7"
+			(uuid "b472b84b-6f1c-4ae7-a2b4-de7d0b3321a7")
+		)
+		(pin "12"
+			(uuid "28f3452e-c74c-45d0-8744-fbb5a0166c57")
+		)
+		(pin "6"
+			(uuid "3f73c6fc-e149-45dc-9853-0a43c641b85f")
+		)
+		(pin "15"
+			(uuid "fd8ef3fe-9208-4a9a-8031-9134c08fe319")
+		)
+		(pin "14"
+			(uuid "b0a7e5a7-69e6-4de4-be3a-0ac096b1b22d")
+		)
+		(pin "11"
+			(uuid "50e1ae20-d306-4ce9-ab62-5d6ec93aaea9")
+		)
+		(pin "5"
+			(uuid "1078c98f-6470-42a6-b221-f16950df890e")
+		)
+		(pin "9"
+			(uuid "32dd0e9b-9509-41e7-8ffb-696427f53245")
+		)
+		(pin "2"
+			(uuid "d64d475b-b3b6-4266-96be-06f2829df94d")
+		)
+		(pin "16"
+			(uuid "d7552b6f-5fac-4d05-990b-b520750cc997")
+		)
+		(pin "1"
+			(uuid "42667231-149a-41f2-aa3a-b76d72dd2ec5")
+		)
+		(pin "3"
+			(uuid "85ce54a7-223b-4d47-a468-1249d5fe1da4")
+		)
+		(pin "13"
+			(uuid "05f3ff4b-d46a-4091-83ce-65dffb9b94c9")
+		)
+		(instances
+			(project ""
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00"
+					(reference "RN1")
+					(unit 7)
 				)
 			)
 		)
