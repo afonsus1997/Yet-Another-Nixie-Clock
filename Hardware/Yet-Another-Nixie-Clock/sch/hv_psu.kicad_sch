@@ -2361,14 +2361,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "08231144-2585-4840-ae77-b4ea41854307")
+			(uuid "6d639902-f22d-4d5e-b08f-e8a73ffb9b65")
 		)
 		(pin "2"
-			(uuid "6c4283ac-428f-499b-a3cc-24f030919e33")
+			(uuid "5e162593-b116-4aed-a3fa-141e7ecc49a6")
 		)
 		(instances
 			(project "Yet-Another-Nixie-Clock"
-				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/4db56952-3598-415d-bf50-6679a755a651"
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/50401da1-09e6-4577-9a0a-561e17376ad4"
 					(reference "R2")
 					(unit 1)
 				)
@@ -2385,7 +2385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c4754db-3fdc-4a29-8017-713ee07ee4c1")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR09"
 			(at 189.23 111.76 0)
 			(effects
 				(font
@@ -2430,12 +2430,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "aff10a11-7a95-49f2-be40-36be63732b1b")
+			(uuid "cb8f130a-e11b-459c-b41f-14c5a6433251")
 		)
 		(instances
 			(project "Yet-Another-Nixie-Clock"
-				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/4db56952-3598-415d-bf50-6679a755a651"
-					(reference "#PWR04")
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/50401da1-09e6-4577-9a0a-561e17376ad4"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2451,7 +2451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1694f34d-51b0-45fd-bf9b-5971dabfbba2")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 224.79 111.76 0)
 			(effects
 				(font
@@ -2496,12 +2496,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "31a23934-e274-4150-901f-e4a0cf31b88e")
+			(uuid "c9aaaeeb-f11a-406c-96f4-1caf9ca13ee7")
 		)
 		(instances
 			(project "Yet-Another-Nixie-Clock"
-				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/4db56952-3598-415d-bf50-6679a755a651"
-					(reference "#PWR010")
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/50401da1-09e6-4577-9a0a-561e17376ad4"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2517,7 +2517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2796729e-c358-4d00-a879-96d6ceb2c6b1")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 127.8733 73.66 0)
 			(effects
 				(font
@@ -2563,33 +2563,33 @@
 			)
 		)
 		(pin "7"
-			(uuid "e81982e5-27f1-4b71-97aa-819434726291")
+			(uuid "85accf6c-e622-4934-98ec-4b83b7309c14")
 		)
 		(pin "4"
-			(uuid "5c044256-6f04-4a76-bc9b-0a2e09f1c737")
+			(uuid "59ce6b5c-6d72-44c4-8e82-3ba431c4920c")
 		)
 		(pin "2"
-			(uuid "0a440759-ccf2-4c32-ba15-920660c0dbb1")
+			(uuid "eb3d5bc2-3430-4b7e-aa80-43a804b7ba54")
 		)
 		(pin "6"
-			(uuid "77aa12d5-2b27-4800-af9a-66261b6209e2")
+			(uuid "59c7f735-13a5-4c53-9aae-c9e85edaa3ac")
 		)
 		(pin "1"
-			(uuid "04f4a8d2-fd03-4a80-b66c-044d0b57a83c")
+			(uuid "b4f3ea6b-e146-424d-bdb4-6e571e9fa474")
 		)
 		(pin "8"
-			(uuid "1169592f-ab3c-4831-a1f9-0f6eb41c558f")
+			(uuid "4c2aa60f-ab1a-48a8-887a-85bd55bff1ba")
 		)
 		(pin "5"
-			(uuid "ca52547c-e00c-4670-9e1b-addacc9e9ca0")
+			(uuid "f44e099e-986b-4834-a5f6-8daa1f5a7047")
 		)
 		(pin "3"
-			(uuid "3f14b52e-4a3a-472f-88a8-21fc88015236")
+			(uuid "440a51df-a15c-4884-bbba-fd1eb1205e41")
 		)
 		(instances
 			(project "Yet-Another-Nixie-Clock"
-				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/4db56952-3598-415d-bf50-6679a755a651"
-					(reference "U3")
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/50401da1-09e6-4577-9a0a-561e17376ad4"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -2660,17 +2660,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "5402f46e-8244-4daa-b72d-6fdd664816d3")
+			(uuid "c757bfdd-b12c-41b9-a1db-bf04558fb6e5")
 		)
 		(pin "3"
-			(uuid "7137bcd8-cfc2-48ae-8185-989875b0acc9")
+			(uuid "22f7b4d5-bcc1-42f9-9471-09b890f958c3")
 		)
 		(pin "1"
-			(uuid "2e321d41-3fe6-42b6-85a5-891bfd00596b")
+			(uuid "f3b8f204-037c-44e1-b73a-a6d513fef000")
 		)
 		(instances
 			(project "Yet-Another-Nixie-Clock"
-				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/4db56952-3598-415d-bf50-6679a755a651"
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/50401da1-09e6-4577-9a0a-561e17376ad4"
 					(reference "Q2")
 					(unit 1)
 				)
@@ -2687,7 +2687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d0df707-ac5d-42ee-b44c-f7e83939df12")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR07"
 			(at 125.73 111.76 0)
 			(effects
 				(font
@@ -2732,12 +2732,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "553923ba-c4d5-4f99-b16c-794cf9bfd233")
+			(uuid "b991fcc7-6e21-4628-9ef9-5e2b075f3da4")
 		)
 		(instances
 			(project "Yet-Another-Nixie-Clock"
-				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/4db56952-3598-415d-bf50-6679a755a651"
-					(reference "#PWR02")
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/50401da1-09e6-4577-9a0a-561e17376ad4"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2806,14 +2806,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "e3588a11-ed60-4551-9650-6ced10836eba")
+			(uuid "2f62a051-8ec9-4105-8e44-3a8f643f215a")
 		)
 		(pin "2"
-			(uuid "b848e9a1-2c2e-4448-94a8-2d31e0174390")
+			(uuid "60cc8baa-39aa-4a4a-9498-eb2d9c9cd14a")
 		)
 		(instances
 			(project "Yet-Another-Nixie-Clock"
-				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/4db56952-3598-415d-bf50-6679a755a651"
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/50401da1-09e6-4577-9a0a-561e17376ad4"
 					(reference "L1")
 					(unit 1)
 				)
@@ -2829,7 +2829,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e65a251-715f-4402-9e30-1f18e4b72d6a")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 77.47 80.1369 0)
 			(effects
 				(font
@@ -2892,15 +2892,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "008152f4-266a-45b7-92e8-a489927d207d")
+			(uuid "99af763e-bb76-4ff9-9ac2-938af7cee022")
 		)
 		(pin "1"
-			(uuid "a19897e2-6e5c-4d68-8732-193962b686c9")
+			(uuid "38d9afd4-0e29-4838-904d-ed5d8d72cd6b")
 		)
 		(instances
 			(project "Yet-Another-Nixie-Clock"
-				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/4db56952-3598-415d-bf50-6679a755a651"
-					(reference "C3")
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/50401da1-09e6-4577-9a0a-561e17376ad4"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2915,7 +2915,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56eca688-00e1-4277-878d-1847d888c16d")
-		(property "Reference" "C1"
+		(property "Reference" "C4"
 			(at 191.77 80.1369 0)
 			(effects
 				(font
@@ -2978,15 +2978,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "002afd36-2cfc-464b-9964-39439c457d25")
+			(uuid "fd18aac5-8c1d-4bea-b0ee-16a6b0094aa3")
 		)
 		(pin "1"
-			(uuid "3691a34b-52c5-4123-b152-756a73c65141")
+			(uuid "3d8a2c77-38ba-40de-9ed4-cab148daad99")
 		)
 		(instances
 			(project "Yet-Another-Nixie-Clock"
-				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/4db56952-3598-415d-bf50-6679a755a651"
-					(reference "C1")
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/50401da1-09e6-4577-9a0a-561e17376ad4"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3002,7 +3002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6242251d-74c1-4d39-927c-46531b2cd79f")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR02"
 			(at 59.69 73.66 0)
 			(effects
 				(font
@@ -3047,12 +3047,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ea4f4e7a-4ccd-47b9-9b27-22a4a3f945f9")
+			(uuid "248ce847-db9a-4f78-9cba-9c8f0da580bf")
 		)
 		(instances
 			(project "Yet-Another-Nixie-Clock"
-				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/4db56952-3598-415d-bf50-6679a755a651"
-					(reference "#PWR012")
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/50401da1-09e6-4577-9a0a-561e17376ad4"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3124,17 +3124,17 @@
 			)
 		)
 		(pin "3"
-			(uuid "762eb94b-3a92-46f2-a50b-2eef97f8a1ad")
+			(uuid "26547594-1b34-4869-8378-3a26d6882b74")
 		)
 		(pin "2"
-			(uuid "b474e936-78ea-406a-87dc-6373183517c6")
+			(uuid "e345a2fb-e269-487b-9bc1-b11e1130cb62")
 		)
 		(pin "1"
-			(uuid "edc10c46-7f71-4709-876a-cbe98b410658")
+			(uuid "77fd5eed-49a5-4707-94af-f64478014f7f")
 		)
 		(instances
-			(project ""
-				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/4db56952-3598-415d-bf50-6679a755a651"
+			(project "Yet-Another-Nixie-Clock"
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/50401da1-09e6-4577-9a0a-561e17376ad4"
 					(reference "RV1")
 					(unit 1)
 				)
@@ -3151,7 +3151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "641fe49a-403f-45cb-9916-e680ea4cc0df")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 241.3 73.66 0)
 			(effects
 				(font
@@ -3196,12 +3196,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7f044884-6783-496e-b40b-bd4462b3961a")
+			(uuid "efe4fbab-9b58-4271-82b4-d5090f633a13")
 		)
 		(instances
-			(project ""
-				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/4db56952-3598-415d-bf50-6679a755a651"
-					(reference "#PWR011")
+			(project "Yet-Another-Nixie-Clock"
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/50401da1-09e6-4577-9a0a-561e17376ad4"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3217,7 +3217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7029e388-dcf9-4928-811b-08785aa16b7d")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 109.22 111.76 0)
 			(effects
 				(font
@@ -3262,12 +3262,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "af862459-3335-4bde-91e1-20f19cc94155")
+			(uuid "56cc7bea-d3f0-4740-9291-f300c0f23842")
 		)
 		(instances
 			(project "Yet-Another-Nixie-Clock"
-				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/4db56952-3598-415d-bf50-6679a755a651"
-					(reference "#PWR07")
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/50401da1-09e6-4577-9a0a-561e17376ad4"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3338,14 +3338,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "90879cea-f87f-4f8e-8770-50b11fd6b31b")
+			(uuid "733b3b2d-ab4e-402c-ab31-4ae87ec82796")
 		)
 		(pin "2"
-			(uuid "3daa2ffe-8af8-4cbd-82e2-9acf9af32c7a")
+			(uuid "b0a83aef-c7de-4c48-a35c-c593f83d1423")
 		)
 		(instances
 			(project "Yet-Another-Nixie-Clock"
-				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/4db56952-3598-415d-bf50-6679a755a651"
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/50401da1-09e6-4577-9a0a-561e17376ad4"
 					(reference "R4")
 					(unit 1)
 				)
@@ -3424,14 +3424,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "940d18ac-e32f-41ed-bcdc-c9c2eb988116")
+			(uuid "7a13314b-7a4a-44d3-8126-b259cdf9cf5e")
 		)
 		(pin "2"
-			(uuid "41d49596-9e1d-4d5a-934d-367df09f8fb3")
+			(uuid "b8a9467b-3033-44af-8ca6-631f2a7f7d67")
 		)
 		(instances
 			(project "Yet-Another-Nixie-Clock"
-				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/4db56952-3598-415d-bf50-6679a755a651"
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/50401da1-09e6-4577-9a0a-561e17376ad4"
 					(reference "C5")
 					(unit 1)
 				)
@@ -3448,7 +3448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b0afbd2-de55-4971-9c19-81677bf1c2ed")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR04"
 			(at 88.9 111.76 0)
 			(effects
 				(font
@@ -3493,12 +3493,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "45932016-c426-4d06-8cda-c22e5eecce28")
+			(uuid "0e40f040-fdee-4a81-b588-b76f8e76a536")
 		)
 		(instances
 			(project "Yet-Another-Nixie-Clock"
-				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/4db56952-3598-415d-bf50-6679a755a651"
-					(reference "#PWR08")
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/50401da1-09e6-4577-9a0a-561e17376ad4"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3514,7 +3514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dc0c439-86db-4935-9081-423f185fc96e")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR010"
 			(at 209.55 111.76 0)
 			(effects
 				(font
@@ -3559,12 +3559,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "bcb07b8a-a019-44a9-be2b-5ee3574554ac")
+			(uuid "70fe99da-c15b-493e-b1b7-0476905464a8")
 		)
 		(instances
 			(project "Yet-Another-Nixie-Clock"
-				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/4db56952-3598-415d-bf50-6679a755a651"
-					(reference "#PWR03")
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/50401da1-09e6-4577-9a0a-561e17376ad4"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3580,7 +3580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8cb26e4-5443-41c9-8f06-92f426be6abb")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR08"
 			(at 166.37 111.76 0)
 			(effects
 				(font
@@ -3625,12 +3625,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e748a59b-4e62-4cf8-b704-1e8019decdeb")
+			(uuid "f5f64ed0-e312-4e5a-9126-c079815620d8")
 		)
 		(instances
 			(project "Yet-Another-Nixie-Clock"
-				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/4db56952-3598-415d-bf50-6679a755a651"
-					(reference "#PWR05")
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/50401da1-09e6-4577-9a0a-561e17376ad4"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3646,7 +3646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8d40411-94f4-4ea9-a70d-c68c72f21405")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR03"
 			(at 74.93 111.76 0)
 			(effects
 				(font
@@ -3691,12 +3691,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "df483cf3-f9b1-4741-8df9-4a8d951d1746")
+			(uuid "82401f26-e490-43b3-8269-233afcd9cd27")
 		)
 		(instances
 			(project "Yet-Another-Nixie-Clock"
-				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/4db56952-3598-415d-bf50-6679a755a651"
-					(reference "#PWR09")
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/50401da1-09e6-4577-9a0a-561e17376ad4"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3712,7 +3712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2b45b15-2b81-46cf-a452-8a5cf14a31ca")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 102.87 111.76 0)
 			(effects
 				(font
@@ -3757,12 +3757,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "89e41cff-df95-49a6-9e40-2326c24861b6")
+			(uuid "a07bd37e-3db0-4978-9c6c-57ca2c25b909")
 		)
 		(instances
 			(project "Yet-Another-Nixie-Clock"
-				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/4db56952-3598-415d-bf50-6679a755a651"
-					(reference "#PWR06")
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/50401da1-09e6-4577-9a0a-561e17376ad4"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3777,7 +3777,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c07fb8fd-9a80-4880-87bb-1ff84a24fca3")
-		(property "Reference" "C4"
+		(property "Reference" "C2"
 			(at 91.44 80.0162 0)
 			(effects
 				(font
@@ -3840,15 +3840,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "8431e27a-d489-4868-9651-353003066ace")
+			(uuid "0727de05-6c8c-4146-816c-14353a198882")
 		)
 		(pin "2"
-			(uuid "fab4bcbe-650b-418d-aec0-b8712749fe46")
+			(uuid "09eb26ba-a349-4346-bee3-f54f0737ba9a")
 		)
 		(instances
 			(project "Yet-Another-Nixie-Clock"
-				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/4db56952-3598-415d-bf50-6679a755a651"
-					(reference "C4")
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/50401da1-09e6-4577-9a0a-561e17376ad4"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3919,14 +3919,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "f56d1046-8518-4185-acf2-b02fdb932a76")
+			(uuid "6a6c703f-004c-4e14-a728-747bfcdab7f3")
 		)
 		(pin "2"
-			(uuid "e2f31a79-ea1b-426b-9e0f-811d6196a743")
+			(uuid "d6b0fac0-ba36-45bd-a6d3-ec511c49758c")
 		)
 		(instances
 			(project "Yet-Another-Nixie-Clock"
-				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/4db56952-3598-415d-bf50-6679a755a651"
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/50401da1-09e6-4577-9a0a-561e17376ad4"
 					(reference "R3")
 					(unit 1)
 				)
@@ -4015,14 +4015,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "9ddc635e-9899-4280-bad7-ec2b5c5e08d0")
+			(uuid "1aa05106-d8e4-4339-a1c5-acbb22f91398")
 		)
 		(pin "1"
-			(uuid "0b19e40a-e668-4997-b0b5-a307172fa170")
+			(uuid "453bbfa5-f860-457e-9cf9-37bb9010c452")
 		)
 		(instances
-			(project ""
-				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/4db56952-3598-415d-bf50-6679a755a651"
+			(project "Yet-Another-Nixie-Clock"
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/50401da1-09e6-4577-9a0a-561e17376ad4"
 					(reference "D1")
 					(unit 1)
 				)
@@ -4038,7 +4038,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e70de630-0c9b-41a0-ae1e-560f6a992f96")
-		(property "Reference" "C2"
+		(property "Reference" "C3"
 			(at 111.76 96.5262 0)
 			(effects
 				(font
@@ -4101,15 +4101,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a7c2de3c-4101-47c8-a0be-d324009b1a26")
+			(uuid "adb5c4d0-d106-4851-a72a-980fcdbf6992")
 		)
 		(pin "2"
-			(uuid "e13159c2-e84d-4ef3-b5ef-e37e2d621c3f")
+			(uuid "7bb9b7f7-db11-470d-ba4e-2061592289f9")
 		)
 		(instances
 			(project "Yet-Another-Nixie-Clock"
-				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/4db56952-3598-415d-bf50-6679a755a651"
-					(reference "C2")
+				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/50401da1-09e6-4577-9a0a-561e17376ad4"
+					(reference "C3")
 					(unit 1)
 				)
 			)
