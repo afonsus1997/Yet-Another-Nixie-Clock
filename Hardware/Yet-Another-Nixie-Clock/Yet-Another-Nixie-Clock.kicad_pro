@@ -418,7 +418,7 @@
       "HV PSU"
     ],
     [
-      "1305ac8d-7cf4-437c-a00c-2697e371541d",
+      "3e6bbdb1-30ad-474e-bf42-2c38644432f8",
       "Nixie0"
     ],
     [
@@ -426,60 +426,24 @@
       "Nixie Driver"
     ],
     [
-      "ba77e33f-4562-42a1-b135-1818c2128ee1",
+      "05c9c558-0e58-4f59-b93c-fa4438f2e391",
       "Nixie1"
     ],
     [
-      "8fa88c2b-1c1c-4fc4-855c-499e0c1d0046",
+      "f67e349c-8155-4874-be08-b64d4f7745bd",
       "Nixie2"
     ],
     [
-      "5e3409af-3814-41e4-aff0-9db92344d50d",
+      "b38a5395-2f27-4a68-9fa6-83feaeec8687",
       "Nixie3"
     ],
     [
-      "5b06016d-b92b-403a-9e9a-46c406da24d6",
+      "7fdb74d9-fd32-4e8e-9d97-7cfb4cb48c14",
       "Nixie4"
     ],
     [
-      "d970cc6c-de10-4841-aedb-6dde661e6229",
+      "0d10c335-8932-42ed-96ea-4d9cd8acc52e",
       "Nixie5"
-    ],
-    [
-      "292b7dd0-a73e-4582-940b-4983daf26390",
-      "Nixie6"
-    ],
-    [
-      "3bee215c-108d-4b38-885c-2067af3b60ec",
-      "Shift Register0"
-    ],
-    [
-      "c8364b9f-4158-45a1-9bb0-859996ec7376",
-      "Shift Register1"
-    ],
-    [
-      "704e483a-815a-41df-aabe-946202105482",
-      "Shift Register2"
-    ],
-    [
-      "81c6a070-59b5-48d2-a74a-55c3fb074093",
-      "Shift Register3"
-    ],
-    [
-      "72a72ea1-7521-42db-9c0f-ac12028dc07b",
-      "Shift Register4"
-    ],
-    [
-      "f058dd0f-ae4d-427c-931e-ea9e48707261",
-      "Shift Register5"
-    ],
-    [
-      "45fc91e0-96e8-473e-95db-254c336656ec",
-      "Shift Register6"
-    ],
-    [
-      "85694afd-8bd3-4d7d-a687-2b9349c95136",
-      "Shift Register7"
     ]
   ],
   "text_variables": {}
