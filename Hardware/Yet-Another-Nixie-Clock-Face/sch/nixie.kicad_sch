@@ -2397,7 +2397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Yet-Another-Nixie-Clock:IN_12B_Socket"
+		(property "Footprint" "Yet-Another-Nixie-Clock-Face:IN_12B_Socket"
 			(at 186.69 76.2 0)
 			(effects
 				(font

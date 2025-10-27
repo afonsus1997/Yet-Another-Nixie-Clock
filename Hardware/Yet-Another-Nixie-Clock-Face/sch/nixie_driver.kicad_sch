@@ -9816,7 +9816,7 @@
 			)
 		)
 		(instances
-			(project "Yet-Another-Nixie-Clock"
+			(project "Yet-Another-Nixie-Clock-Face"
 				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00"
 					(page "5")
 				)
@@ -9878,7 +9878,7 @@
 			)
 		)
 		(instances
-			(project "Yet-Another-Nixie-Clock"
+			(project "Yet-Another-Nixie-Clock-Face"
 				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00"
 					(page "9")
 				)
@@ -9940,51 +9940,9 @@
 			)
 		)
 		(instances
-			(project "Yet-Another-Nixie-Clock"
+			(project "Yet-Another-Nixie-Clock-Face"
 				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 44.45 26.67)
-		(size 43.18 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "50401da1-09e6-4577-9a0a-561e17376ad4")
-		(property "Sheetname" "HV PSU"
-			(at 44.45 25.9584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "hv_psu.kicad_sch"
-			(at 44.45 45.0346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Yet-Another-Nixie-Clock"
-				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00"
-					(page "2")
 				)
 			)
 		)
@@ -10044,7 +10002,7 @@
 			)
 		)
 		(instances
-			(project "Yet-Another-Nixie-Clock"
+			(project "Yet-Another-Nixie-Clock-Face"
 				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00"
 					(page "8")
 				)
@@ -10106,7 +10064,7 @@
 			)
 		)
 		(instances
-			(project "Yet-Another-Nixie-Clock"
+			(project "Yet-Another-Nixie-Clock-Face"
 				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00"
 					(page "7")
 				)
@@ -10168,7 +10126,7 @@
 			)
 		)
 		(instances
-			(project "Yet-Another-Nixie-Clock"
+			(project "Yet-Another-Nixie-Clock-Face"
 				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741/3fd9b30e-c53f-44d4-9eb4-8fd367607a00"
 					(page "6")
 				)

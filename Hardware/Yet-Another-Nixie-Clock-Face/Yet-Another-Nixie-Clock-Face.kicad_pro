@@ -492,7 +492,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Yet-Another-Nixie-Clock.kicad_pro",
+    "filename": "Yet-Another-Nixie-Clock-Face.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -654,10 +654,6 @@
     [
       "78ce616d-4594-460a-a6b5-d8dd90d9a741",
       "Root"
-    ],
-    [
-      "50401da1-09e6-4577-9a0a-561e17376ad4",
-      "HV PSU"
     ],
     [
       "3e6bbdb1-30ad-474e-bf42-2c38644432f8",

@@ -492,7 +492,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Yet-Another-Nixie-Clock.kicad_pro",
+    "filename": "Yet-Another-Nixie-Clock-Processing.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -656,36 +656,8 @@
       "Root"
     ],
     [
-      "50401da1-09e6-4577-9a0a-561e17376ad4",
+      "e9d1ba4d-7229-4dca-8415-12c19473adbe",
       "HV PSU"
-    ],
-    [
-      "3e6bbdb1-30ad-474e-bf42-2c38644432f8",
-      "Nixie0"
-    ],
-    [
-      "3fd9b30e-c53f-44d4-9eb4-8fd367607a00",
-      "Nixie Driver"
-    ],
-    [
-      "05c9c558-0e58-4f59-b93c-fa4438f2e391",
-      "Nixie1"
-    ],
-    [
-      "f67e349c-8155-4874-be08-b64d4f7745bd",
-      "Nixie2"
-    ],
-    [
-      "b38a5395-2f27-4a68-9fa6-83feaeec8687",
-      "Nixie3"
-    ],
-    [
-      "7fdb74d9-fd32-4e8e-9d97-7cfb4cb48c14",
-      "Nixie4"
-    ],
-    [
-      "0d10c335-8932-42ed-96ea-4d9cd8acc52e",
-      "Nixie5"
     ]
   ],
   "text_variables": {}

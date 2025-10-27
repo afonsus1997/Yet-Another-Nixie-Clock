@@ -7341,16 +7341,6 @@
 		)
 		(uuid "60745501-38c5-4caf-a7ad-dd77d48bcfdb")
 	)
-	(bus
-		(pts
-			(xy 292.1 157.48) (xy 302.26 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62419f7c-1fdd-4206-9b64-0f2495b7b2d3")
-	)
 	(wire
 		(pts
 			(xy 147.32 49.53) (xy 147.32 50.8)
@@ -8201,16 +8191,6 @@
 		)
 		(uuid "b1d4a986-ad8a-4564-abbb-99cb33c85efe")
 	)
-	(bus
-		(pts
-			(xy 292.1 160.02) (xy 302.26 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1e64925-2c1f-4fc8-a7db-ad62845e72b8")
-	)
 	(wire
 		(pts
 			(xy 377.19 170.18) (xy 377.19 171.45)
@@ -8760,16 +8740,6 @@
 			(type default)
 		)
 		(uuid "d8cd3b5b-3e9d-4349-9184-7035601d3cba")
-	)
-	(wire
-		(pts
-			(xy 292.1 162.56) (xy 302.26 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da07eb9c-0713-449b-8c7e-096bf46edc35")
 	)
 	(wire
 		(pts
@@ -9341,26 +9311,6 @@
 		)
 		(uuid "4e0dcd05-bd7b-478f-b0ca-882eb35c7c39")
 	)
-	(label "~{N_LE}"
-		(at 292.1 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "50c71462-9d0c-4312-ab7a-c9bb1960b7e7")
-	)
-	(label "G_A[0..5]"
-		(at 292.1 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5de275b8-fe4a-4282-8bda-8e55e3d61046")
-	)
 	(label "G_A[0..5]"
 		(at 349.25 78.74 180)
 		(effects
@@ -9590,16 +9540,6 @@
 			(justify right bottom)
 		)
 		(uuid "92d38894-7b82-4431-b6a4-ee0b3f253d4f")
-	)
-	(label "N[0..3]"
-		(at 292.1 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "96c5af90-1c9e-494e-8dd4-b83f5e7a2409")
 	)
 	(label "LED_3"
 		(at 279.4 120.65 180)
@@ -10016,7 +9956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Yet-Another-Nixie-Clock:SW_SKRPACE010"
+		(property "Footprint" "Yet-Another-Nixie-Clock-Processing:SW_SKRPACE010"
 			(at 358.14 81.28 0)
 			(effects
 				(font
@@ -10460,7 +10400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Yet-Another-Nixie-Clock:SW_SKRPACE010"
+		(property "Footprint" "Yet-Another-Nixie-Clock-Processing:SW_SKRPACE010"
 			(at 251.46 44.45 0)
 			(effects
 				(font
@@ -15982,7 +15922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Yet-Another-Nixie-Clock:SW_SKRPACE010"
+		(property "Footprint" "Yet-Another-Nixie-Clock-Processing:SW_SKRPACE010"
 			(at 260.35 78.74 0)
 			(effects
 				(font
@@ -18491,8 +18431,8 @@
 		)
 	)
 	(sheet
-		(at 302.26 151.13)
-		(size 34.29 17.78)
+		(at 293.37 152.4)
+		(size 43.18 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -18505,9 +18445,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "3fd9b30e-c53f-44d4-9eb4-8fd367607a00")
-		(property "Sheetname" "Nixie Driver"
-			(at 302.26 150.4184 0)
+		(uuid "e9d1ba4d-7229-4dca-8415-12c19473adbe")
+		(property "Sheetname" "HV PSU"
+			(at 293.37 151.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18515,8 +18455,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "sch/nixie_driver.kicad_sch"
-			(at 302.26 169.4946 0)
+		(property "Sheetfile" "sch/hv_psu.kicad_sch"
+			(at 293.37 170.7646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18524,40 +18464,10 @@
 				(justify left top)
 			)
 		)
-		(pin "G_A[0..5]" bidirectional
-			(at 302.26 160.02 180)
-			(uuid "532a91ea-759e-4c3f-95e9-61db0b20bfc8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "N[0..3]" bidirectional
-			(at 302.26 157.48 180)
-			(uuid "040a0b8f-869d-4a27-9be9-b8bfd8c6412d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{N_LE}" bidirectional
-			(at 302.26 162.56 180)
-			(uuid "e1122281-e994-4917-be4b-cc063f581dd2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
-			(project "Yet-Another-Nixie-Clock"
+			(project "Yet-Another-Nixie-Clock-Processing"
 				(path "/78ce616d-4594-460a-a6b5-d8dd90d9a741"
-					(page "4")
+					(page "2")
 				)
 			)
 		)
