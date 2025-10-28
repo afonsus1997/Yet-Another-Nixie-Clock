@@ -63,7 +63,24 @@
           "width": 0.1524
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|237830001|85400000|6d80f9c1-54e8-4f17-b49b-cf1be8c96c2c|e09f74fb-0b4c-4a13-ba9b-80a3c7e5791a",
+          ""
+        ],
+        [
+          "clearance|238025001|87000000|1cc9ea20-48ca-45b9-8062-77b7cb207306|2c2b5a50-4c28-4759-b268-03b11246dd03",
+          ""
+        ],
+        [
+          "clearance|240825001|85400000|e9983f7d-c1a3-45b4-aa16-7db6988d204d|8e6bc8b1-a26b-41e9-958d-7ae0b18fb391",
+          ""
+        ],
+        [
+          "clearance|241020001|87000000|95d0d6be-7294-467a-90d9-d30072e9107f|ffadafa5-6a8e-466d-8fe5-3d97dc996830",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -144,7 +161,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -237,7 +254,7 @@
           "drill": 0.15
         },
         {
-          "diameter": 0.5,
+          "diameter": 0.6,
           "drill": 0.3
         },
         {
