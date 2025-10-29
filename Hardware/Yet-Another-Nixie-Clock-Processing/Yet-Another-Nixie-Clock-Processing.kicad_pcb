@@ -934,6 +934,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C407903"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf41c0b4-c849-45a5-b227-419bf74348de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SO*3.9x4.9mm*P1.27mm*")
 		(path "/e9d1ba4d-7229-4dca-8415-12c19473adbe/2796729e-c358-4d00-a879-96d6ceb2c6b1")
 		(sheetname "/HV PSU/")
@@ -2643,7 +2656,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C99782"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4497,6 +4510,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C82460"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72a29f30-de9e-4df2-ab7b-2ac7a0bba755")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/bfb8eaa3-3356-442b-a949-3cc299b2d713")
 		(sheetname "/")
@@ -5283,6 +5309,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2685123"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "698c071a-2444-4404-a555-7ac362d00e16")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6310,6 +6349,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C722467"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef8327c6-140a-41f3-90dc-ca3cff6f5dc0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOIC*7.5x10.3mm*P1.27mm*")
 		(path "/dc2fb14b-cdc6-4a36-b854-e6585cddc10a")
 		(sheetname "/")
@@ -6752,6 +6804,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C97253"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9226191a-4cb9-4d00-b153-6fc9e20b0c58")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8945,7 +9010,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C99782"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9889,6 +9954,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C82460"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02ae282b-fd22-4e5c-acc2-0d18446cf77c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/5fee78e9-7e2e-46a4-a2f2-c0588c8682e8")
 		(sheetname "/")
@@ -10438,6 +10516,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2685123"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a71e746c-7c80-42c0-a6ae-097e2639362c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12452,6 +12543,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C82899"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8e08818-aa5b-47c6-b9c7-57edbf073702")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -15416,7 +15520,7 @@
 		(path "/b74b293a-34e0-4c4c-b819-992bcc92902c")
 		(sheetname "/")
 		(sheetfile "Yet-Another-Nixie-Clock-Processing.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_line
 			(start 0.8 0.735)
 			(end -1.485 0.735)
@@ -15876,7 +15980,7 @@
 		(path "/1ec24b58-501d-4cf1-a7c9-d8e01746f409")
 		(sheetname "/")
 		(sheetfile "Yet-Another-Nixie-Clock-Processing.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_line
 			(start 0.8 0.735)
 			(end -1.485 0.735)
@@ -16604,7 +16708,7 @@
 		(path "/0843bf54-854f-4309-b2e1-a490be205c17")
 		(sheetname "/")
 		(sheetfile "Yet-Another-Nixie-Clock-Processing.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -14.25 -3.5)
 			(end -14.250001 -2.08)
@@ -17472,6 +17576,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C573025"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3b9af284-c8cc-4084-8acb-7e80e1b8897f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -18919,7 +19037,7 @@
 		(path "/9e8da674-3a53-455e-9b0c-f7b4aa8f12e3")
 		(sheetname "/")
 		(sheetfile "Yet-Another-Nixie-Clock-Processing.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_line
 			(start 0.8 0.735)
 			(end -1.485 0.735)
@@ -19160,7 +19278,7 @@
 		(path "/7582b186-625c-4c4d-a224-899b9cb0615c")
 		(sheetname "/")
 		(sheetfile "Yet-Another-Nixie-Clock-Processing.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_line
 			(start 0.8 0.735)
 			(end -1.485 0.735)

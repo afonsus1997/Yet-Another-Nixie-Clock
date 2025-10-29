@@ -9742,7 +9742,7 @@
 		(at 355.6 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10052,7 +10052,7 @@
 		(at 252.73 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1ec24b58-501d-4cf1-a7c9-d8e01746f409")
@@ -10617,6 +10617,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2685123"
+			(at 370.84 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "af3cc54c-32ff-4b71-b15b-c9b67cd92e69")
 		)
@@ -11133,6 +11142,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 257.81 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2685123"
 			(at 257.81 160.02 0)
 			(effects
 				(font
@@ -11886,7 +11904,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C99782"
 			(at 279.4 207.01 0)
 			(effects
 				(font
@@ -12759,6 +12777,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C82460"
+			(at 55.88 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8a664707-3c73-4223-836e-a92a7f7448fa")
 		)
@@ -13331,7 +13358,7 @@
 		(at 127 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7582b186-625c-4c4d-a224-899b9cb0615c")
@@ -14670,7 +14697,7 @@
 		(at 252.73 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9e8da674-3a53-455e-9b0c-f7b4aa8f12e3")
@@ -15271,7 +15298,7 @@
 		(at 127 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b74b293a-34e0-4c4c-b819-992bcc92902c")
@@ -15599,6 +15626,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C82460"
+			(at 55.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bd93eb62-5693-4a91-9842-42b29e60f1f5")
 		)
@@ -15728,6 +15764,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 374.65 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C573025"
 			(at 374.65 43.18 0)
 			(effects
 				(font
@@ -16359,6 +16404,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C82899"
+			(at 308.61 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "23"
 			(uuid "94e34679-4f02-4b72-8a1e-47f45543496f")
 		)
@@ -16598,6 +16652,15 @@
 			)
 		)
 		(property "Description" "Extremely Accurate I2C-Integrated RTC/TCXO/Crystal SOIC-16"
+			(at 300.99 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C722467"
 			(at 300.99 220.98 0)
 			(effects
 				(font
@@ -17151,6 +17214,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C97253"
+			(at 104.14 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "8ddef4e0-144f-4549-9735-5338174b92ed")
 		)
@@ -17481,7 +17553,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C99782"
 			(at 284.48 207.01 0)
 			(effects
 				(font

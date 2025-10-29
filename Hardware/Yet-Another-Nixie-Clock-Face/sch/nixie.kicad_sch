@@ -1870,6 +1870,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C99782"
+			(at 99.06 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "031d366e-d2d0-46ba-b145-149e92695b41")
 		)
@@ -2062,6 +2071,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C417384"
+			(at 110.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2da726a0-02e1-4751-83ac-d4c260134ddf")
 		)
@@ -2147,6 +2165,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 116.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114667"
+			(at 116.84 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2244,6 +2271,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C99782"
+			(at 134.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c1e79b64-2732-4ebd-9851-758d98a3a5f7")
 		)
@@ -2326,6 +2362,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 123.19 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C98220"
 			(at 123.19 116.84 0)
 			(effects
 				(font

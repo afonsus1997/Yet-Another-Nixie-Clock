@@ -807,7 +807,7 @@
 		(path "/91842386-eb15-441f-93fd-530d529bf87c")
 		(sheetname "/")
 		(sheetfile "Yet-Another-Nixie-Clock-Face.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_line
 			(start -1.485 0.735)
 			(end 0.8 0.735)
@@ -1675,7 +1675,7 @@
 		(path "/a20b48d0-13b9-428f-b978-7a813f4e8554")
 		(sheetname "/")
 		(sheetfile "Yet-Another-Nixie-Clock-Face.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_line
 			(start -1.485 0.735)
 			(end 0.8 0.735)
@@ -3979,6 +3979,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C417384"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3117648a-573b-4f87-9e4c-cdb8ff8ade86")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/0d10c335-8932-42ed-96ea-4d9cd8acc52e/45075bb5-b7b0-4bbb-963f-d0c3f66fc271")
 		(sheetname "/Nixie Driver/Nixie5/")
 		(sheetfile "nixie.kicad_sch")
@@ -4583,6 +4597,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C417384"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8e1bc1c6-9d23-43a3-83f5-176ee32583f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/7fdb74d9-fd32-4e8e-9d97-7cfb4cb48c14/45075bb5-b7b0-4bbb-963f-d0c3f66fc271")
 		(sheetname "/Nixie Driver/Nixie4/")
 		(sheetfile "nixie.kicad_sch")
@@ -4908,6 +4936,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C417384"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a18f4da8-cfcb-4448-9a04-1a205d00280c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -5791,6 +5833,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C114667"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3bc95ca6-6edd-42b6-89d5-e2589a0ae129")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/0d10c335-8932-42ed-96ea-4d9cd8acc52e/5031f0dc-dec7-41aa-a707-7ff386bed4e4")
 		(sheetname "/Nixie Driver/Nixie5/")
@@ -6270,6 +6326,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C417384"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d38d2c21-c447-4b8c-b2a4-71753301fc2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/05c9c558-0e58-4f59-b93c-fa4438f2e391/45075bb5-b7b0-4bbb-963f-d0c3f66fc271")
 		(sheetname "/Nixie Driver/Nixie1/")
 		(sheetfile "nixie.kicad_sch")
@@ -6595,6 +6665,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C98220"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5e78ae7a-c2cc-4f33-a5af-d523a5e9c8c4")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -7149,6 +7233,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C99782"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "23c9c9b4-55e7-4306-ab54-b4299776b058")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/f67e349c-8155-4874-be08-b64d4f7745bd/626acfa3-6b77-470b-8572-78a6019486a4")
 		(sheetname "/Nixie Driver/Nixie2/")
@@ -7349,6 +7447,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C98220"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bd4623d5-db44-4805-b531-d548eef36696")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -7559,6 +7671,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C99782"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "231a2243-b472-4aad-9cb2-f2e37bdb2213")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/0d10c335-8932-42ed-96ea-4d9cd8acc52e/263e327d-f4f7-4644-aa11-b034adad1206")
 		(sheetname "/Nixie Driver/Nixie5/")
@@ -7759,6 +7885,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C98220"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5cf4ba64-445b-4fc8-beb0-2fbb4720bfe6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -7969,6 +8109,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C98220"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "aad485e5-45e1-4a87-a602-c61686feb015")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/7fdb74d9-fd32-4e8e-9d97-7cfb4cb48c14/9aa8206d-79bf-4af8-8448-459be0864dc3")
 		(sheetname "/Nixie Driver/Nixie4/")
@@ -8169,6 +8323,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C3294464"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6c6afdfd-6c7b-42c3-a914-1858e76d5bb2")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -8989,6 +9157,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C98220"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7cc7df50-1973-42ba-8bb0-c8c6141c2b64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/b38a5395-2f27-4a68-9fa6-83feaeec8687/9aa8206d-79bf-4af8-8448-459be0864dc3")
 		(sheetname "/Nixie Driver/Nixie3/")
@@ -9413,6 +9595,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C99782"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1d4ba54d-5cad-4b7f-a587-13221ab6fa55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/b38a5395-2f27-4a68-9fa6-83feaeec8687/263e327d-f4f7-4644-aa11-b034adad1206")
 		(sheetname "/Nixie Driver/Nixie3/")
@@ -9613,6 +9809,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C99782"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ae55ef65-fe45-4065-86be-108403bf8b47")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -10498,6 +10708,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C99782"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "45a6877f-c6bd-497a-beb0-c6cb9697effc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/7fdb74d9-fd32-4e8e-9d97-7cfb4cb48c14/626acfa3-6b77-470b-8572-78a6019486a4")
 		(sheetname "/Nixie Driver/Nixie4/")
@@ -10703,6 +10927,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C114667"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9472f2a6-f91d-445b-84bd-fd7ceaafaf39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/05c9c558-0e58-4f59-b93c-fa4438f2e391/5031f0dc-dec7-41aa-a707-7ff386bed4e4")
 		(sheetname "/Nixie Driver/Nixie1/")
@@ -10901,6 +11139,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C326649"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c471c96d-2a64-4e76-be8a-18989011ea9c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -12580,6 +12832,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C99782"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c26e6350-8652-433f-abec-57b855b7f63c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/7fdb74d9-fd32-4e8e-9d97-7cfb4cb48c14/263e327d-f4f7-4644-aa11-b034adad1206")
 		(sheetname "/Nixie Driver/Nixie4/")
@@ -13073,6 +13339,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C99782"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "76a76d11-5a7b-4bc7-9df2-40885609db12")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -14289,7 +14569,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22548"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14839,6 +15119,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C114667"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3b947441-66c5-43b7-9176-994dc4e2a9d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/3e6bbdb1-30ad-474e-bf42-2c38644432f8/5031f0dc-dec7-41aa-a707-7ff386bed4e4")
 		(sheetname "/Nixie Driver/Nixie0/")
@@ -15039,6 +15333,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C99782"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ec35df6c-fe20-45d5-a87a-22744484c9ed")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -15849,6 +16157,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C3294464"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4dff0327-f8de-4752-9e20-d9389a20ad6c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -17108,6 +17430,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C99782"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b01a4dc1-589d-4c41-8f87-6bb4ecad53d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/05c9c558-0e58-4f59-b93c-fa4438f2e391/263e327d-f4f7-4644-aa11-b034adad1206")
 		(sheetname "/Nixie Driver/Nixie1/")
@@ -17582,6 +17918,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C114667"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "447a0b39-1a9f-434e-b064-8fa6e349bbd5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -18123,6 +18473,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C99782"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "67dd4750-5996-46cd-a6b4-083f40c96fab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/0d10c335-8932-42ed-96ea-4d9cd8acc52e/626acfa3-6b77-470b-8572-78a6019486a4")
 		(sheetname "/Nixie Driver/Nixie5/")
@@ -18323,6 +18687,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C417384"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a672e9ce-e946-4e29-bc25-3d93821edfc1")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -18658,6 +19036,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C114667"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "393e6364-af69-40c1-9393-ce45078b8c8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/7fdb74d9-fd32-4e8e-9d97-7cfb4cb48c14/5031f0dc-dec7-41aa-a707-7ff386bed4e4")
 		(sheetname "/Nixie Driver/Nixie4/")
@@ -18858,6 +19250,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C99782"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2420cd99-e23d-4a3f-9503-8ad64ec43cfa")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -19905,6 +20311,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C114667"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8533b4b7-eb81-42af-b781-65fee9d8b320")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/f67e349c-8155-4874-be08-b64d4f7745bd/5031f0dc-dec7-41aa-a707-7ff386bed4e4")
 		(sheetname "/Nixie Driver/Nixie2/")
@@ -20436,6 +20856,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C417384"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bbfa39ac-69b1-49c0-90e7-2a9903468495")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -21102,6 +21536,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C99782"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4dcd3bde-0083-4fa3-89ae-92a33ad20bfb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/05c9c558-0e58-4f59-b93c-fa4438f2e391/626acfa3-6b77-470b-8572-78a6019486a4")
 		(sheetname "/Nixie Driver/Nixie1/")
@@ -21732,6 +22180,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C98220"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "90aeb447-8947-4358-9629-553e79decd10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fd9b30e-c53f-44d4-9eb4-8fd367607a00/3e6bbdb1-30ad-474e-bf42-2c38644432f8/9aa8206d-79bf-4af8-8448-459be0864dc3")
 		(sheetname "/Nixie Driver/Nixie0/")
@@ -21965,13 +22427,14 @@
 		(uuid "ce44a5c4-3578-4b9a-ad3c-088d985f652d")
 	)
 	(gr_text "Yet Another Nixie Clock\nAfonso Muralha 2025"
-		(at 85.1 128.25 0)
+		(at 103.115 130 0)
 		(layer "B.SilkS")
 		(uuid "e4e63e58-726f-48b6-8c45-c5ea3838cd34")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.1)
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
 			)
 			(justify left bottom mirror)
 		)
