@@ -3,5 +3,6 @@
 
 #include <Arduino.h>
 #include "io.h"
+#include "nixie.h"
 
 #endif  //!__MAIN__H__

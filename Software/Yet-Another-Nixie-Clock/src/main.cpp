@@ -1,20 +1,18 @@
 #include "main.h"
 // put function declarations here:
-int myFunction(int, int);
 
 void setup() {
   // put your setup code here, to run once:
   setupLeds();
+  setupNixie();
+  setDecoderOutput(0);
+  enableDigit(0);
 }
 
 void loop() {
-  digitalWrite(LED1, HIGH);
-  digitalWrite(LED2, HIGH);
-  digitalWrite(LED3, HIGH);
-  delay(500);
-  digitalWrite(LED1, LOW);
-  digitalWrite(LED2, LOW);
-  digitalWrite(LED3, LOW);
-  delay(500);
-  
+  for (int i = 0; i < 6; i++)
+  {
+    enableDigit(i);
+    delay(3);
+  }
 }
