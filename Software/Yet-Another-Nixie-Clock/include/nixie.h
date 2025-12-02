@@ -20,6 +20,9 @@
 void setupNixie();
 void enableDigit(uint8_t digit);
 void setDecoderOutput(uint8_t value);
-
+void updateTime();
+void setTime(uint8_t hours, uint8_t minutes, uint8_t seconds);
+void disableDigits();
+void disableDigit(uint8_t digit);
 
 #endif  //!__NIXIE__H__
