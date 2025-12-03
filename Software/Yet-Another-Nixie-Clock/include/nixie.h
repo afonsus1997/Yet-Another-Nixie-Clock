@@ -24,5 +24,7 @@ void updateTime();
 void setTime(uint8_t hours, uint8_t minutes, uint8_t seconds);
 void disableDigits();
 void disableDigit(uint8_t digit);
+void nixieLoop();
+void multiplexNixie();
 
 #endif  //!__NIXIE__H__

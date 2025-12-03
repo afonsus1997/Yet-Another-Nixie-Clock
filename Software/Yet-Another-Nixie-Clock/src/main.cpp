@@ -16,9 +16,7 @@ void setup() {
   // put your setup code here, to run once:
   setupLeds();
   setupNixie();
-  // setDecoderOutput(2);
-  setTime(12, 34, 56);
-  // enableDigit(0);
+  setTime(12, 23, 34);
   // xTaskCreatePinnedToCore(
   //     nixieUpdateTask,        // Task function
   //     "NixieUpdateTask",      // Name
@@ -35,5 +33,5 @@ void loop() {
       // enableDigit(i);
       // delay(1);
     // }
-  updateTime();
+  nixieLoop();
 }
