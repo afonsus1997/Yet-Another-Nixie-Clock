@@ -11,6 +11,7 @@ void nixieUpdateTask(void *pvParameters) {
 
 void setup() {
   // put your setup code here, to run once:
+  Serial.begin(115200);
   setupLeds();
   setupNixie();
   setTime(12, 23, 34);
@@ -23,6 +24,10 @@ void setup() {
       &nixieUpdateTaskHandle, // Handle
       1               // Core 1
   );
+
+  // setupProvisioning();
+  initClock();
+
 }
 
 void loop() {

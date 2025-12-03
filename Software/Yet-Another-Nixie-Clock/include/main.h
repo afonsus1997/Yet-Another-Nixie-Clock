@@ -4,5 +4,10 @@
 #include <Arduino.h>
 #include "io.h"
 #include "nixie.h"
+#include "wifi_conn.h"
+#include "clock.h"
+
+
+void initClock();
 
 #endif  //!__MAIN__H__
