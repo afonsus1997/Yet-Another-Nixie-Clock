@@ -18,7 +18,7 @@ uint8_t currentTime[] = {2,4,4,6,7,9};
 const uint32_t coldOnTime  = 15000; // 15 ms first strike
 const uint32_t coldOffTime = 1000;  // 1 ms
 
-const uint32_t normalOnTime  = 1200; // 1.2 ms
+const uint32_t normalOnTime  = 500; // 1.2 ms
 const uint32_t normalOffTime = 200;  // 0.2 ms
 const uint8_t  pulsesPerDigit = 2;   // double pulse per digit
 

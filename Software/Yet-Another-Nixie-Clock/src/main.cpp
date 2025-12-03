@@ -4,12 +4,9 @@
 TaskHandle_t nixieUpdateTaskHandle;
 
 void nixieUpdateTask(void *pvParameters) {
-  // while (true) {
-  //   for (int i = 0; i < 6; i++) {
-  //     enableDigit(i);
-  //     vTaskDelay(pdMS_TO_TICKS(2));
-  //   }
-  // }
+  while (true) {
+    nixieLoop();
+  }
 }
 
 void setup() {
@@ -17,21 +14,17 @@ void setup() {
   setupLeds();
   setupNixie();
   setTime(12, 23, 34);
-  // xTaskCreatePinnedToCore(
-  //     nixieUpdateTask,        // Task function
-  //     "NixieUpdateTask",      // Name
-  //     4096,            // Stack size
-  //     NULL,            // Parameter
-  //     1,               // Priority
-  //     &nixieUpdateTaskHandle, // Handle
-  //     1               // Core 1
-  // );
+  xTaskCreatePinnedToCore(
+      nixieUpdateTask,        // Task function
+      "NixieUpdateTask",      // Name
+      4096,            // Stack size
+      NULL,            // Parameter
+      1,               // Priority
+      &nixieUpdateTaskHandle, // Handle
+      1               // Core 1
+  );
 }
 
 void loop() {
-  // for (int i = 0; i < 6; i++) {
-      // enableDigit(i);
-      // delay(1);
-    // }
-  nixieLoop();
+
 }
