@@ -1,0 +1,3 @@
+[submodule "Software/Yet-Another-Nixie-Clock/lib/WiFiProvisioner"]
+	path = Software/Yet-Another-Nixie-Clock/lib/WiFiProvisioner
+	url = git@github.com:afonsus1997/WiFiProvisioner.git
