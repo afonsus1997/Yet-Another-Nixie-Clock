@@ -15,21 +15,20 @@ void setup() {
   setupLeds();
   setupNixie();
   setTime(12, 23, 34);
-  xTaskCreatePinnedToCore(
-      nixieUpdateTask,        // Task function
-      "NixieUpdateTask",      // Name
-      4096,            // Stack size
-      NULL,            // Parameter
-      1,               // Priority
-      &nixieUpdateTaskHandle, // Handle
-      1               // Core 1
-  );
+  // xTaskCreatePinnedToCore(
+  //     nixieUpdateTask,        // Task function
+  //     "NixieUpdateTask",      // Name
+  //     4096,            // Stack size
+  //     NULL,            // Parameter
+  //     1,               // Priority
+  //     &nixieUpdateTaskHandle, // Handle
+  //     1               // Core 1
+  // );
 
-  // setupProvisioning();
-  initClock();
-
+  // initClock();
+  setupWifi();
 }
 
 void loop() {
-
+  delay(100);
 }

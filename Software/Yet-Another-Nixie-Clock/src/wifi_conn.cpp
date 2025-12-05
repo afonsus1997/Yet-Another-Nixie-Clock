@@ -1,6 +1,9 @@
 #include "wifi_conn.h"
+#include <string>
 
 Preferences preferences;
+
+
 
 void setupProvisioning(){
   WiFiProvisioner::Config customCfg(
@@ -10,47 +13,105 @@ void setupProvisioning(){
       "",
       "Nixie Clock", // Project Title
       "Wifi Setup",       // Project Sub-title
-      "Follow the steps to connect. Obtain your API key from "
-      "the 'User' page.",                             // Project Information
+      "Follow the steps to connect.",                             // Project Information
       "Afonso Muralha", // Footer
-                                                      // Text
       "The device is now visible in your online dashboard.", // Success Message
       "This action will erase all stored settings, including "
       "API key.", // Reset Confirmation Text
       "API Key",  // Input Field Text
-      4,          // Input Field Length
+      30,          // Input Field Length
       true,       // Show Input Field
       true        // Show Reset Field
   );
+
+//   WiFiProvisioner::Config customCfg(
+//     "MyCustomAP",                    // Access Point Name
+//     "Welcome!",                      // HTML Page Title
+//     "#007BFF",                       // Theme Color
+//     "<svg>...</svg>",                // SVG Logo
+//     "Custom Project",                // Project Title
+//     "Setup Your Device",             // Project Sub-title
+//     "Follow these steps:",           // Project Info
+//     "All rights reserved © MyProject", // Footer Text
+//     "Connected!",                    // Success Message
+//     "Reset all?",                    // Reset Confirmation Text
+//     "Enter Key:",                    // Input Field Label
+//     6,                               // Input Field Length
+//     true,                            // Show Input Field
+//     true                             // Show Reset Field
+// );
+
 
   // Create the WiFiProvisioner instance with the custom configuration
   WiFiProvisioner provisioner(customCfg);
 
   // Set up callbacks
-  provisioner.onProvision([]() { Serial.println("Provisioning started."); })
-      .onInputCheck([](const char *input) -> bool {
-      })
-      .onSuccess([](const char *ssid, const char *password, const char *input) {
-        preferences.begin("wifi-provision", false);
-        Serial.printf("Connected to SSID: %s\n", ssid);
-        preferences.putString("ssid", String(ssid));
-        if (password) {
-          preferences.putString("password", String(password));
-          Serial.printf("Password: %s\n", password);
-        }
-        if (input) {
-          Serial.printf("Input: %s\n", input);
-          preferences.putString("apikey", String(input));
-        }
-        Serial.println("Provisioning completed successfully!");
+  
 
-        preferences.end();
-      })
-      .onFactoryReset([]() { 
-        Serial.println("Factory reset triggered!"); 
-        preferences.clear();
-      });
+
 
   // Start provisioning
   provisioner.startProvisioning();
+}
+
+uint8_t connectWifi(){
+  preferences.begin("wifi-provision", false);
+  String savedSSID = preferences.getString("ssid", "");
+  String savedPassword = preferences.getString("password", "");
+  preferences.end();
+
+  if (savedSSID.isEmpty()) {
+    Serial.println("No saved Wi-Fi credentials found.");
+    return 1;
+  }
+
+  Serial.printf("Connecting to saved Wi-Fi: %s\n", savedSSID.c_str());
+  if (savedPassword.isEmpty()) {
+    WiFi.begin(savedSSID.c_str());
+  } else {
+    WiFi.begin(savedSSID.c_str(), savedPassword.c_str());
+  }
+
+  unsigned long startTime = millis();
+  while (WiFi.status() != WL_CONNECTED) {
+    if (millis() - startTime > 10000) {
+      Serial.println("Failed to connect to saved Wi-Fi.");
+      return false;
+    }
+    delay(500);
+  }
+
+  Serial.printf("Successfully connected to %s\n", savedSSID.c_str());
+  return 0;
+  
+}
+
+void setupWifi(){
+  WiFi.mode(WIFI_STA);
+  WiFi.disconnect(true);   // Clear old state
+  delay(100);
+  if(connectWifi()){
+    setupProvisioning();
+  }
+
+  
+
+  // Serial.println("Connecting to Wifi");
+  
+
+  // WiFi.begin("SpinWorks Guest", "Spin!Works");
+  
+
+  // unsigned long start = millis();
+  // while (WiFi.status() != WL_CONNECTED) {
+    // if (millis() - start > 10000) {
+      // Serial.println("❌ WiFi connection timeout.");
+      // break;
+    // }
+    // Serial.print(".");
+    // delay(250);  // MUST yield for WiFi driver
+  // }
+// 
+  // Serial.println("Connected!");
+
 }
