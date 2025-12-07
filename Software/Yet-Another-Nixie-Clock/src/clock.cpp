@@ -4,6 +4,9 @@
 
 #include "time.h"
 
+
+RTC_DS3231 rtc;
+
 void setTimezone(String timezone){
   Serial.printf("  Setting Timezone to %s\n",timezone.c_str());
   setenv("TZ",timezone.c_str(),1);  //  Now adjust the TZ.  Clock settings are adjusted to show the new local time
@@ -49,7 +52,14 @@ void setTime(int yr, int month, int mday, int hr, int minute, int sec, int isDst
   settimeofday(&now, NULL);
 }
 
+void initRTC(){
+  Wire.begin(I2C_SDA_PIN, I2C_SCL_PIN);
+  if (! rtc.begin()) {
+    Serial.println("Couldn't find RTC");
+  }
+}
+
 void initClock(){
-  initTime("WET0WEST,M3.5.0/1,M10.5.0");   // Set for Melbourne/AU
+  initTime("WET0WEST,M3.5.0/1,M10.5.0");   // Set for Lisbon
   printLocalTime();
 }
