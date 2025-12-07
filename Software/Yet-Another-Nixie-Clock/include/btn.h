@@ -1,8 +1,11 @@
 #ifndef __BTN__H__
 #define __BTN__H__
 
-#include <lwbtn/src/include/lwbtn.h>
-#include "lwbtn_opts.h"
+#include "lwbtn/lwbtn.h"
+// #include "lwbtn_opts.h"
+#include <Arduino.h>
+
+#define LWBTN_IGNORE_USER_OPTS
 
 #define BUTTON_USER_PIN 23
 

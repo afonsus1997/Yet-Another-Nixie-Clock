@@ -1,6 +1,6 @@
 #include "btn.h"
 
-uint8_t btn_states[3] = {0, 0, 0};
+uint8_t btn_states[BUTTONS_TOTAL] = {0};
 
 
 const int buttons_id[BUTTONS_TOTAL] = {BUTTON_USER};
@@ -18,12 +18,13 @@ void btn_button_event(struct lwbtn* lw, struct lwbtn_btn* btn, lwbtn_evt_t evt) 
     if (evt == LWBTN_EVT_ONPRESS) {
         int btn_id = *(int*)btn->arg;
         // ui_process_button_event(btn_id); BTN HANDLING HERE
+        Serial.println("User button pressed!");
     }
 }
 
 uint8_t prv_btn_get_state(struct lwbtn* lw, struct lwbtn_btn* btn) {
   switch (*(int*)btn->arg) {
-    case BUTTON_RIGHT:
+    case BUTTON_USER:
       return !digitalRead(BUTTON_USER_PIN);
     default:
       return 0; // Button not pressed
@@ -31,7 +32,7 @@ uint8_t prv_btn_get_state(struct lwbtn* lw, struct lwbtn_btn* btn) {
 }
 
 void btn_process(){
-  lwbtn_process_ex(NULL, HAL_GetTick());
+  lwbtn_process_ex(NULL, millis());
 }
 
 void btn_init(){
