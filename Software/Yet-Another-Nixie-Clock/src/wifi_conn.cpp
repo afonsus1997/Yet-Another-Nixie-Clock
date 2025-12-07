@@ -17,8 +17,8 @@ void setupProvisioning(){
       "Afonso Muralha", // Footer
       "The device is now visible in your online dashboard.", // Success Message
       "This action will erase all stored settings, including "
-      "API key.", // Reset Confirmation Text
-      "API Key",  // Input Field Text
+      "timezone string.", // Reset Confirmation Text
+      "Timezone String:",  // Input Field Text
       30,          // Input Field Length
       true,       // Show Input Field
       true        // Show Reset Field
