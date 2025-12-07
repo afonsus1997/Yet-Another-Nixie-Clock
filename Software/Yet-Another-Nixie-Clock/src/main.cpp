@@ -13,6 +13,7 @@ void setup() {
   // put your setup code here, to run once:
   Serial.begin(115200);
   setupLeds();
+  btn_init();
   setupNixie();
   setTime(12, 23, 34);
   // xTaskCreatePinnedToCore(

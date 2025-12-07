@@ -6,6 +6,7 @@
 #include "nixie.h"
 #include "wifi_conn.h"
 #include "clock.h"
+#include "btn.h"
 
 
 void initClock();
