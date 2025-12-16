@@ -1,159 +1,254 @@
-#include "clock.h"
+#include <Arduino.h>
+#include <Wire.h>
+#include <time.h>
+#include <sys/time.h>
+#include <RTClib.h>
 
-// https://randomnerdtutorials.com/esp32-ntp-timezones-daylight-saving/
+// -----------------------------------------------------
+// CONFIG
+// -----------------------------------------------------
+
+#define I2C_SDA_PIN 21
+#define I2C_SCL_PIN 22
+
+#define NTP_SERVER "pool.ntp.org"
+#define NTP_TIMEOUT_MS 5000
+#define NTP_RESYNC_INTERVAL (6 * 3600)  // seconds
+
+// Reject RTC times before ~2023
+#define MIN_VALID_EPOCH 1700000000
+
+// Lisbon timezone (WET/WEST)
+#define CLOCK_TIMEZONE "WET0WEST,M3.5.0/1,M10.5.0"
+
+// -----------------------------------------------------
+// RTC
+// -----------------------------------------------------
 
 RTC_DS3231 rtc;
 
 // -----------------------------------------------------
-// TIMEZONE & DST
+// CLOCK STATE
 // -----------------------------------------------------
 
-void setTimezone(String timezone){
-  Serial.printf("  Setting Timezone to %s\n", timezone.c_str());
-  setenv("TZ", timezone.c_str(), 1);
-  tzset();  // Apply timezone & DST rules
-}
+enum ClockSource {
+  CLOCK_NONE,
+  CLOCK_RTC,
+  CLOCK_NTP
+};
 
-void initTime(String timezone){
-  struct tm timeinfo;
+struct ClockStatus {
+  ClockSource source;
+  bool valid;
+  time_t lastSync;
+};
 
-  Serial.println("Setting up time");
-  configTime(0, 0, "pool.ntp.org");  // Get UTC from NTP
-
-  if (!getLocalTime(&timeinfo)) {
-    Serial.println("  Failed to obtain time from NTP");
-    return;
-  }
-
-  Serial.println("  Got the time from NTP");
-
-  // Now adjust timezone
-  setTimezone(timezone);
-}
-
-void printLocalTime(){
-  struct tm timeinfo;
-  if (!getLocalTime(&timeinfo)) {
-    Serial.println("Failed to obtain time");
-    return;
-  }
-  Serial.println(&timeinfo, "%A, %B %d %Y %H:%M:%S zone %Z %z");
-}
+static ClockStatus clockStatus = {
+  .source = CLOCK_NONE,
+  .valid = false,
+  .lastSync = 0
+};
 
 // -----------------------------------------------------
-// MANUAL SET TIME (optional)
+// INTERNAL HELPERS
 // -----------------------------------------------------
 
-void setTime(int yr, int month, int mday, int hr, int minute, int sec, int isDst){
-  struct tm tm;
+void setTimezone(const char *tz) {
+  Serial.printf("[CLOCK] Setting TZ: %s\n", tz);
+  setenv("TZ", tz, 1);
+  tzset();
+}
 
-  tm.tm_year = yr - 1900;
-  tm.tm_mon  = month - 1;
-  tm.tm_mday = mday;
-  tm.tm_hour = hr;
-  tm.tm_min  = minute;
-  tm.tm_sec  = sec;
-  tm.tm_isdst = isDst;
-
-  time_t t = mktime(&tm);
-
-  Serial.printf("Setting time: %s", asctime(&tm));
-
-  struct timeval now = { .tv_sec = t };
-  settimeofday(&now, NULL);
+bool rtcTimeLooksValid(time_t t) {
+  return (t > MIN_VALID_EPOCH);
 }
 
 // -----------------------------------------------------
 // RTC INIT
 // -----------------------------------------------------
 
-void initRTC(){
+void initRTC() {
   Wire.begin(I2C_SDA_PIN, I2C_SCL_PIN);
 
   if (!rtc.begin()) {
-    Serial.println("Couldn't find RTC");
+    Serial.println("[CLOCK] RTC not found");
   } else {
-    Serial.println("RTC found");
+    Serial.println("[CLOCK] RTC found");
   }
 }
 
 // -----------------------------------------------------
-// NTP → RTC (stores UTC only)
+// SYSTEM TIME INIT (NTP CONFIG ONLY)
 // -----------------------------------------------------
 
-void syncNTPToRTC() {
+void initSystemTime() {
+  Serial.println("[CLOCK] Initializing system time");
+  configTime(0, 0, NTP_SERVER);  // UTC only
+  setTimezone(CLOCK_TIMEZONE);
+}
+
+// -----------------------------------------------------
+// NTP → RTC (store UTC)
+// -----------------------------------------------------
+
+bool syncNTPToRTC() {
   struct tm timeinfo;
 
-  // 1. Get the current time (Timezone and DST applied by system)
-  if (!getLocalTime(&timeinfo)) {
-    Serial.println("Failed to obtain local time for RTC sync");
-    return;
+  if (!getLocalTime(&timeinfo, NTP_TIMEOUT_MS)) {
+    Serial.println("[CLOCK] NTP failed");
+    return false;
   }
 
-  // 2. Convert Local tm structure to UTC epoch timestamp
-  // mktime() automatically subtracts the timezone offset to give you UTC.
-  time_t now_utc = mktime(&timeinfo);
+  time_t utc = mktime(&timeinfo); // converts local -> UTC epoch
 
-  // 3. Update the RTC with the UTC timestamp
-  rtc.adjust(DateTime(now_utc));
+  rtc.adjust(DateTime(utc));
 
-  Serial.println("RTC updated from NTP (stored as UTC)");
+  Serial.println("[CLOCK] RTC updated from NTP");
+  return true;
 }
 
 // -----------------------------------------------------
-// RTC → System Clock (apply timezone + DST automatically)
+// RTC → SYSTEM
 // -----------------------------------------------------
 
 bool syncRTCToSystemClock() {
   if (!rtc.begin()) {
-    Serial.println("RTC not found");
+    Serial.println("[CLOCK] RTC missing");
     return false;
   }
 
   DateTime rtcTime = rtc.now();
   time_t t = rtcTime.unixtime();
 
-  struct timeval now = { .tv_sec = t };
-  settimeofday(&now, NULL);
+  if (!rtcTimeLooksValid(t)) {
+    Serial.println("[CLOCK] RTC time invalid");
+    return false;
+  }
 
-  Serial.println("System clock updated from RTC");
+  struct timeval now = { .tv_sec = t };
+  settimeofday(&now, nullptr);
+
+  Serial.println("[CLOCK] System clock updated from RTC");
   return true;
 }
 
 // -----------------------------------------------------
-// FULL TIME SYNC ROUTINE (try NTP first, fallback to RTC)
+// BOOT SYNC (AUTHORITATIVE)
 // -----------------------------------------------------
 
-void syncTime() {
-  Serial.println("Attempting NTP sync...");
+void clockBootSync() {
+  Serial.println("[CLOCK] Boot sync");
 
   struct tm timeinfo;
-  if (getLocalTime(&timeinfo, 5000)) {
-    Serial.println("NTP time obtained");
+
+  // 1️⃣ Try NTP
+  if (getLocalTime(&timeinfo, NTP_TIMEOUT_MS)) {
+    Serial.println("[CLOCK] NTP OK");
+
     syncNTPToRTC();
-    printLocalTime();
+
+    clockStatus.source = CLOCK_NTP;
+    clockStatus.valid = true;
+    clockStatus.lastSync = time(nullptr);
     return;
   }
 
-  Serial.println("NTP failed, trying RTC...");
+  // 2️⃣ Fallback to RTC
+  Serial.println("[CLOCK] NTP failed, trying RTC");
 
   if (syncRTCToSystemClock()) {
-    Serial.println("Time loaded from RTC");
-    printLocalTime();
-  } else {
-    Serial.println("RTC also failed. Time is not set.");
+    Serial.println("[CLOCK] RTC OK");
+
+    clockStatus.source = CLOCK_RTC;
+    clockStatus.valid = true;
+    clockStatus.lastSync = time(nullptr);
+    return;
+  }
+
+  // 3️⃣ No time
+  Serial.println("[CLOCK] No valid time source");
+
+  clockStatus.source = CLOCK_NONE;
+  clockStatus.valid = false;
+}
+
+// -----------------------------------------------------
+// CLOCK LOOP (NON-BLOCKING)
+// -----------------------------------------------------
+
+void clockLoop() {
+  static unsigned long lastTick = 0;
+
+  if (millis() - lastTick < 1000) return;
+  lastTick = millis();
+
+  if (!clockStatus.valid) return;
+
+  time_t now = time(nullptr);
+
+  // Periodic NTP resync if we started from RTC
+  if (clockStatus.source == CLOCK_RTC &&
+      (now - clockStatus.lastSync) > NTP_RESYNC_INTERVAL) {
+
+    Serial.println("[CLOCK] Periodic NTP resync");
+
+    if (syncNTPToRTC()) {
+      clockStatus.source = CLOCK_NTP;
+      clockStatus.lastSync = now;
+    }
   }
 }
 
 // -----------------------------------------------------
-// CLOCK SYSTEM INIT
+// PUBLIC CLOCK API
 // -----------------------------------------------------
 
-void initClock(){
-  initRTC();
+bool clockIsValid() {
+  return clockStatus.valid;
+}
 
-  // Lisbon timezone (WET/WEST)
-  initTime("WET0WEST,M3.5.0/1,M10.5.0");
+ClockSource clockGetSource() {
+  return clockStatus.source;
+}
 
-  printLocalTime();
+time_t clockGetUTC() {
+  if (!clockStatus.valid) return 0;
+  return time(nullptr);
+}
+
+bool clockGetLocal(struct tm &timeinfo) {
+  if (!clockStatus.valid) return false;
+  return getLocalTime(&timeinfo);
+}
+
+String clockGetTimeString() {
+  struct tm tm;
+  if (!clockGetLocal(tm)) return "--:--:--";
+
+  char buf[16];
+  strftime(buf, sizeof(buf), "%H:%M:%S", &tm);
+  return String(buf);
+}
+
+String clockGetDateString() {
+  struct tm tm;
+  if (!clockGetLocal(tm)) return "----/--/--";
+
+  char buf[16];
+  strftime(buf, sizeof(buf), "%Y-%m-%d", &tm);
+  return String(buf);
+}
+
+// -----------------------------------------------------
+// DEBUG
+// -----------------------------------------------------
+
+void clockPrint() {
+  struct tm tm;
+  if (!clockGetLocal(tm)) {
+    Serial.println("[CLOCK] Invalid");
+    return;
+  }
+
+  Serial.println(&tm, "%A, %B %d %Y %H:%M:%S %Z %z");
 }
